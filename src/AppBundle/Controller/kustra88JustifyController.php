@@ -5,7 +5,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use AppBundle\Form\kustra88JustifyType;
-use kustra88\Tools\kustra88JustifyType;
+use kustra88\Tools\Justify;
 class kustra88JustifyController extends Controller
 {
     /**
