@@ -32,9 +32,6 @@ class Justify
         $des_length = intval($this->length); //int
         $pos = 0;
         $pom = count(explode(' ', $str_in));
-
-
-
         
         if (strlen($str_in) > $des_length){
             $str = wordwrap($str_in, $des_length); //zawija łańcuch znaków (\n) po podanej liczbie znaków w parametrze - $des_length;
@@ -44,7 +41,6 @@ class Justify
         
         if ($des_length <= 0 || strlen($str_in) <= $des_length)
                 return $str_in;
-
 
         else {
 
